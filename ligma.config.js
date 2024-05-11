@@ -2,7 +2,7 @@ module.exports = {
     dsa: [
         "DijkstraList",
         // "PrimsList",
-        // "LRU",
+        "LRU",
         // "LinearSearchList",
         // "BinarySearchList",
         // "TwoCrystalBalls",

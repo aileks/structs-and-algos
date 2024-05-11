@@ -22,6 +22,11 @@ export default function dijkstra_list(
     sink: number,
     arr: WeightedAdjacencyList,
 ): number[] {
+    /**
+     * The current time complexity of what we have current is O(V^2*E).
+     * Using a MinHeap reduces the time complexity of this algorithm to O(logV(V+E))
+     * and eliminates the need for seen and previous arrays.
+     */
     const seen: boolean[] = new Array(arr.length).fill(false);
     const prev: number[] = new Array(arr.length).fill(-1);
     const dists: number[] = new Array(arr.length).fill(Infinity);
