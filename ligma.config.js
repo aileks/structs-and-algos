@@ -1,6 +1,6 @@
 module.exports = {
     dsa: [
-        // "DijkstraList",
+        "DijkstraList",
         // "PrimsList",
         // "LRU",
         // "LinearSearchList",
@@ -12,7 +12,7 @@ module.exports = {
         // "Queue",
         // "Stack",
         // "ArrayList",
-        "MazeSolver",
+        // "MazeSolver",
         // "QuickSort",
         // "BTPreOrder",
         // "BTInOrder",
